@@ -12,11 +12,8 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-nav-link>
                     <x-nav-link :href="route('registration')" :active="request()->routeIs('registration')">
-                        {{ __('Cadastros') }}
+                        {{ __('Clientes') }}
                     </x-nav-link>
                     <x-nav-link :href="route('animal')" :active="request()->routeIs('animal')">
                         {{ __('Animais') }}
@@ -29,6 +26,12 @@
                     </x-nav-link>
                     <x-nav-link :href="route('vet')" :active="request()->routeIs('vet')">
                         {{ __('Veterinaria') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('financial')" :active="request()->routeIs('financial')">
+                        {{ __('Financeiro') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('user')" :active="request()->routeIs('user')">
+                        {{ __('Usuários') }}
                     </x-nav-link>
                 </div>
             </div>
