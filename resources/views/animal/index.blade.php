@@ -20,7 +20,10 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
 
-                    {{ __("SESSÃO DE ANIMAIS") }}
+                    <button class="btn btn-primary">
+                        <i class="bi bi-plus"></i>
+                        <span>Adicionar Animal</span>
+                    </button>
 
                 </div>
             </div>

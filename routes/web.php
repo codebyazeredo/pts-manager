@@ -10,42 +10,42 @@ Route::get('/', function () {
 
 // Dashboard
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('dashboard.index');
 })->middleware(['auth'])->name('dashboard');
 
 // Clientes
 Route::get('/registration', function () {
-    return view('registration');
+    return view('registration.index');
 })->middleware(['auth'])->name('registration');
 
 // Animais
 Route::get('/animal', function () {
-    return view('animal');
+    return view('animal.index');
 })->middleware(['auth'])->name('animal');
 
 // Serviços
 Route::get('/service', function () {
-    return view('service');
+    return view('service.index');
 })->middleware(['auth'])->name('service');
 
 // Produtos
 Route::get('/product', function () {
-    return view('product');
+    return view('product.index');
 })->middleware(['auth'])->name('product');
 
 // Veterinária
 Route::get('/vet', function () {
-    return view('vet');
+    return view('vet.index');
 })->middleware(['auth'])->name('vet');
 
 // Financeiro
 Route::get('/financial', function () {
-    return view('financial');
+    return view('financial.index');
 })->middleware(['auth'])->name('financial');
 
 // Usuários
 Route::get('/user', function () {
-    return view('user');
+    return view('user.index');
 })->middleware(['auth'])->name('user');
 
 // Rotas do perfil
