@@ -21,12 +21,12 @@
                             <input type="text" class="form-control" id="cpf" name="cpf" required>
                         </div>
                         <div class="col">
-                            <label for="phone" class="form-label">Telefone 1</label>
-                            <input type="text" class="form-control" id="phone" name="phone" required>
+                            <label for="birth" class="form-label">Nascimento</label>
+                            <input type="date" class="form-control" id="birth" name="birth">
                         </div>
                         <div class="col">
-                            <label for="phone_alt" class="form-label">Telefone 2 (opcional)</label>
-                            <input type="text" class="form-control" id="phone_alt" name="phone_alt">
+                            <label for="phone" class="form-label">Telefone</label>
+                            <input type="text" class="form-control" id="phone" name="phone" required>
                         </div>
                     </div>
                     <div class="mb-3">
